@@ -1,0 +1,10 @@
+n=int(input())
+m=n*n
+r=str(n)
+r=r[::-1]
+r=int(r)
+r=r*r
+r=str(r)
+r=r[::-1]
+r=int(r)
+print(m==r)
